@@ -11,7 +11,7 @@ import {PlaylistFilter} from "./model/stats.model";
 })
 export class AppComponent {
   asyncTabs: Observable<Tab[]>;
-  filterBy2s: PlaylistFilter = {playlist: "Duel (Ranked)"};
+  filterBy2s: PlaylistFilter = {playlist: "Doubles (Ranked)"};
   url = null;
 
   constructor(public playerService: PlayerStatsService) {
@@ -27,5 +27,8 @@ export class AppComponent {
         ]);
       }, 1000);
     });
+  }
+  refresh():void{
+    console.log("Clicked");
   }
 }

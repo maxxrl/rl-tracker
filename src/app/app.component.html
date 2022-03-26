@@ -9,14 +9,14 @@
 
   <span class="animated-title">Tracker</span>
   <span class="spacer"></span>
-<!--  <button routerLink="/tracker" routerLinkActive="router-link-active" mat-icon-button
-          aria-label="Tracker Icon">
-    <mat-icon>track_changes</mat-icon>
-  </button>
-  <button routerLink="/history" routerLinkActive="router-link-active" mat-icon-button
-          aria-label="History Icon">
-    <mat-icon>table</mat-icon>
-  </button>-->
+  <!--  <button routerLink="/tracker" routerLinkActive="router-link-active" mat-icon-button
+            aria-label="Tracker Icon">
+      <mat-icon>track_changes</mat-icon>
+    </button>
+    <button routerLink="/history" routerLinkActive="router-link-active" mat-icon-button
+            aria-label="History Icon">
+      <mat-icon>table</mat-icon>
+    </button>-->
 
   <img
     width="50"
@@ -41,7 +41,9 @@
   </mat-tab>
 </mat-tab-group>
 
-<button mat-button mat-raised-button>Refresh</button>
+<button id="basic" color="primary" type="button" mat-raised-button (click)="refresh()">
+  Reload
+</button>
 
 
 <animated-circle-background></animated-circle-background>
