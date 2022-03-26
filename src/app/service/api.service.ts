@@ -15,7 +15,7 @@ export class ApiService {
 
   getPlayerRank(playerName: string): Observable<ApiResponse> {
     const headers = new HttpHeaders()
-      .set('X-RapidAPI-Host', ' localhost:4200')
+      .set('X-RapidAPI-Host', 'rocket-league1.p.rapidapi.com')
       .set('X-RapidAPI-Key', '3c91812724msh74b9e871bf23c87p1694ebjsnc434e117a63b');
     return this.httpClient.get<ApiResponse>(this.baseUrl + playerName, {'headers': headers})
   }
