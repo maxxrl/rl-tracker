@@ -13,6 +13,7 @@ import {MatTabsModule} from "@angular/material/tabs";
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 import {PlaylistFilterPipe} from './pipe/playlist-filter.pipe';
 import {MatCardModule} from "@angular/material/card";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import {MatCardModule} from "@angular/material/card";
     PlaylistFilterPipe
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     BackgroundModule,
     AppRoutingModule,
@@ -33,7 +35,7 @@ import {MatCardModule} from "@angular/material/card";
     MatProgressSpinnerModule,
     MatCardModule
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule {

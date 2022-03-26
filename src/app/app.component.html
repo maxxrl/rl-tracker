@@ -41,7 +41,7 @@
   </mat-tab>
 </mat-tab-group>
 
-<button id="basic" color="primary" type="button" mat-raised-button (click)="refresh()">
+<button *ngIf="asyncTabs" id="basic" color="primary" type="button" mat-raised-button (click)="refresh()">
   Reload
 </button>
 
