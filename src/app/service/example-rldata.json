@@ -1,0 +1,64 @@
+{
+  "ranks": [
+    {
+      "division": 3,
+      "played": 27,
+      "rank": "Grand Champion III",
+      "playlist": "Duel (Ranked)",
+      "mmr": 1320,
+      "streak": -4
+    },
+    {
+      "division": 1,
+      "played": 318,
+      "rank": "Grand Champion III",
+      "playlist": "Doubles (Ranked)",
+      "mmr": 1735,
+      "streak": 1
+    },
+    {
+      "division": 2,
+      "played": 0,
+      "rank": "Grand Champion II",
+      "playlist": "Standard (Ranked)",
+      "mmr": 1620,
+      "streak": -3
+    },
+    {
+      "division": 1,
+      "played": 2,
+      "rank": "Grand Champion II",
+      "playlist": "Hoops",
+      "mmr": 1152,
+      "streak": -1
+    },
+    {
+      "division": 2,
+      "played": 0,
+      "rank": "Champion I",
+      "playlist": "Rumble",
+      "mmr": 1015,
+      "streak": 1
+    },
+    {
+      "division": 2,
+      "played": 3,
+      "rank": "Champion III",
+      "playlist": "Dropshot",
+      "mmr": 1004,
+      "streak": 1
+    },
+    {
+      "division": 1,
+      "played": 0,
+      "rank": "Unranked",
+      "playlist": "Snow Day",
+      "mmr": 511,
+      "streak": 3
+    }
+  ],
+  "reward": {
+    "progress": 3,
+    "level": "Grand Champion"
+  }
+}
