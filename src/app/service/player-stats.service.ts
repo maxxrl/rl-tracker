@@ -19,8 +19,6 @@ export class PlayerStatsService {
 
   public getRankIconPath(rank: string): any {
     let iconByRank = PlayerStatsService.getIconByRank(rank);
-    console.log(iconByRank);
-    console.log(rank);
     return "/assets/tiers/" + iconByRank;
   }
 
